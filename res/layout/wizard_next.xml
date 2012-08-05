@@ -13,7 +13,6 @@
             android:minWidth="@dimen/button_minWidth"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:drawableRight="@drawable/button_indicator_next"
             android:layout_marginBottom="-4dip" 
             android:layout_alignParentRight="true"
             android:layout_centerVertical="false" 
