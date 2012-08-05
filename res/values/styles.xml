@@ -18,5 +18,13 @@
         <item name="android:textColor">@android:color/primary_text_light</item>
     </style>
 
+    <!--  Borrowed from JB email app -->
+    <!-- Wizard buttons on the account setup screens -->
+    <!-- TODO these are estimates for the phone UX - final sizes TBD -->
+    <style name="accountSetupButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+    </style>
+    
 </resources>
 
