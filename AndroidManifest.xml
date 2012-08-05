@@ -67,6 +67,7 @@
             android:name="com.fsck.k9.activity.Accounts"
             android:launchMode="singleTask"
             android:configChanges="locale"
+            android:theme="@android:style/Theme.Holo"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -140,7 +141,7 @@
         </activity>
         <activity
             android:name="com.fsck.k9.activity.ChooseFolder"
-            android:theme="@style/Theme.K9Dialog"
+            android:theme="@android:style/Theme.Holo.Dialog"
             android:label="@string/choose_folder_title"
             android:configChanges="locale"
             android:noHistory="true"
@@ -148,14 +149,14 @@
         </activity>
         <activity
             android:name="com.fsck.k9.activity.ChooseIdentity"
-            android:theme="@style/Theme.K9Dialog"
+            android:theme="@android:style/Theme.Holo.Dialog"
             android:label="@string/choose_identity_title"
             android:configChanges="locale"
             >
         </activity>
         <activity
             android:name="com.fsck.k9.activity.ChooseAccount"
-            android:theme="@style/Theme.K9Dialog"
+            android:theme="@android:style/Theme.Holo.Dialog"
             android:label="@string/choose_account_title"
             >
         </activity>
@@ -188,7 +189,7 @@
 
         <activity
             android:name="com.fsck.k9.activity.setup.FolderSettings"
-            android:theme="@android:style/Theme.Dialog"
+            android:theme="@android:style/Theme.Holo.Dialog"
             android:label="@string/folder_settings_title"
             android:configChanges="locale"
             >
@@ -197,6 +198,7 @@
             android:name="com.fsck.k9.activity.FolderList"
             android:launchMode="singleTask"
             android:configChanges="locale"
+            android:theme="@android:style/Theme.Holo"
             >
             <intent-filter>
                 <!-- This action is only to allow an entry point for launcher shortcuts -->
@@ -205,6 +207,7 @@
         </activity>
         <activity
             android:name="com.fsck.k9.activity.MessageList"
+            android:theme="@android:style/Theme.Holo"
             android:launchMode="singleTask"
             android:configChanges="locale"
             >

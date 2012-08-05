@@ -30,6 +30,7 @@ import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
@@ -1693,10 +1694,16 @@ public class MessageList
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
+        
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.message_list_option, menu);
+        return true;
+    	
+    	/*super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.message_list_option, menu);
 
         return true;
+        */
     }
 
     @Override
