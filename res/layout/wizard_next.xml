@@ -4,11 +4,11 @@
         android:padding="0dip"
         android:layout_alignParentBottom="true"
         android:gravity="bottom|right" 
-        android:background="@android:drawable/bottom_bar"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent">
         <Button
             android:id="@+id/next"
+            style="@style/accountSetupButton"
             android:text="@string/next_action"
             android:minWidth="@dimen/button_minWidth"
             android:layout_height="wrap_content"
