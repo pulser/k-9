@@ -15,6 +15,7 @@
     <item
         android:id="@+id/check_mail"
         android:title="@string/check_mail_action"
+        showAsAction="always"
     />
     <item
         android:id="@+id/send_messages"
