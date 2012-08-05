@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -1548,6 +1549,10 @@ public class MessageList
             onEditPrefs();
             return true;
         }
+        case android.R.id.home: {
+        	onAccounts();
+            return true;     	
+        }
         }
 
         if (mQueryString != null) {
@@ -3023,4 +3028,12 @@ public class MessageList
 
         return account;
     }
+    
+    @Override
+    protected void onStart() {
+        super.onStart();
+        ActionBar actionBar = this.getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+    }
+    
 }
