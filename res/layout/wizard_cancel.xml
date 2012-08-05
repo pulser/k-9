@@ -4,11 +4,11 @@
         android:padding="0dip"
         android:layout_alignParentBottom="true"
         android:gravity="bottom|left" 
-        android:background="@android:drawable/bottom_bar"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent">
         <Button
             android:id="@+id/cancel"
+            style="@style/accountSetupButton"
             android:text="@string/cancel_action"
             android:minWidth="@dimen/button_minWidth"
             android:layout_height="wrap_content"
