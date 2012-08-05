@@ -14,7 +14,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_SDK_VERSION := current
 
-LOCAL_PACKAGE_NAME := Email
+LOCAL_PACKAGE_NAME := K9Mail
 
 include $(BUILD_PACKAGE)
 ##################################################
