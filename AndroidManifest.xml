@@ -60,7 +60,7 @@
         android:theme="@android:style/Theme.Holo"
         android:name="K9"
         android:allowTaskReparenting="false"
-        >
+        android:hardwareAccelerated="true">
         <meta-data android:name="android.app.default_searchable"
                    android:value=".activity.Search" />
 
